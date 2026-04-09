@@ -13,7 +13,7 @@ spec:
         app: my-app
     spec:
       containers:
-      - name: my-app
-        image: shalinin250/app:5
+      - name: app
+        image: shalinin250/app:3   # working image
         ports:
         - containerPort: 80
