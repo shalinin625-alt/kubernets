@@ -16,4 +16,4 @@ spec:
       - name: my-app
         image: shalinin250/app:5
         ports:
-        - containerPort: 80   # Important! Nginx listens on 80
+        - containerPort: 80
